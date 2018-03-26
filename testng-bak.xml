@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" parallel="tests" thread-count="5" verbose="1" >
+    <test name="test on iPhone 6 Plus" >
+        <parameter name="platformVersion" value="11.2.5"/>
+        <parameter name="deviceName" value="iPhone 6 Plus"/>
+        <parameter name="udid" value="15cd5139e41348743248bcdc9e418bd7c78d40fb"/>
+        <classes>
+            <class name="com.xstore.qa.IosDemoTest"/>
+        </classes>
+    </test>
+
+    <test name="test on iPhone 6s Plus">
+        <parameter name="platformVersion" value="10.2"/>
+        <parameter name="deviceName" value="iPhone 6s Plus"/>
+        <parameter name="udid" value="e4f98d12d6b570821e97e909c79af7f0590418e5"/>
+        <classes>
+            <class name="com.xstore.qa.IosDemoTest"/>
+        </classes>
+    </test>
+</suite>

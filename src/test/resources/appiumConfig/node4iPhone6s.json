@@ -1,0 +1,31 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "",
+      "version":"10.2",
+      "maxInstances": 1,
+      "platform":"iOS",
+      "udid":"e4f98d12d6b570821e97e909c79af7f0590418e5",
+      "deviceName":"iPhone 6s Plus",
+      "bundleId":"com.xstore.sevenFresh",
+      "automationName":"XCUITest"
+    }
+  ],
+  "configuration":
+  {
+    "cleanUpCycle":2000,
+    "timeout":30000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "hub":"http://169.254.25.214:4444/grid/register/",
+    "url":"http://169.254.25.214:4724/wd/hub",
+    "host": "169.254.25.214",
+    "port": 4724,
+    "maxSession": 1,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "169.254.25.214",
+    "role":"node"
+  }
+}

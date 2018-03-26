@@ -1,0 +1,32 @@
+{
+  "android": {
+    "platformName": "android",
+    "noSign": true,
+    "deviceName": "android",
+    "uiautomator2ServerInstallTimeout":60000,
+    "app": "https://github.com/shridharkalagi/AppiumSample/raw/master/VodQA.apk"
+  },
+  "iOS": {
+    "platformName": "iOS",
+    "deviceName": "iphone",
+    "bundleId": "com.xstore.sevenFresh",
+    "wdaLaunchTimeout": 80000,
+    "wdaConnectionTimeout": 80000,
+    "preventWDAAttachments": false,
+    "clearSystemFiles": true,
+    "shouldUseSingletonTestManager": false,
+    "simpleIsVisibleCheck": true,
+    "locationServicesEnabled": true,
+    "locationServicesAuthorized": true,
+    "autoAcceptAlerts": true,
+    "maxTypingFrequency": 10,
+    "isHeadless": false,
+    "fullReset": false
+  },
+  "hostMachines": [
+    {
+      "machineIP": "127.0.0.1"
+    }
+  ],
+  "excludeLocalDevices": false
+}
